@@ -265,6 +265,40 @@
                                 }
                             ],
                             "ID": 1401864083
+                        },
+                        {
+                            "ExerciseName": "TESTE 01",
+                            "shortDescription": "TESTE 01",
+                            "detailsSetup": {
+                                "aulasSetup": [],
+                                "detailsData": "TESTE 01"
+                            },
+                            "minutesDuration": 1,
+                            "Questions": [
+                                {
+                                    "level": 0,
+                                    "_OptionType": 0,
+                                    "_Embaralhar": true,
+                                    "_OptionAlign": 513,
+                                    "_Numerable": false,
+                                    "Pergunta": "TESTE 01",
+                                    "Options": [
+                                        {
+                                            "IsCorrect": true,
+                                            "OptionAnswer": "TESTE 01"
+                                        },
+                                        {
+                                            "IsCorrect": false,
+                                            "OptionAnswer": "TESTE 02"
+                                        }
+                                    ],
+                                    "CorrectAnswer": "TESTE 01 ",
+                                    "CorrectOptions": [
+                                        0
+                                    ]
+                                }
+                            ],
+                            "ID": 1244482076
                         }
                     ]
                 }
