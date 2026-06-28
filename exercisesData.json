@@ -101,36 +101,6 @@
                                     ]
                                 },
                                 {
-                                    "level": 0,
-                                    "_OptionType": 0,
-                                    "_Embaralhar": true,
-                                    "_OptionAlign": 513,
-                                    "_Numerable": false,
-                                    "Pergunta": "Complete: They ___ happy.",
-                                    "Options": [
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "is"
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "am"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "are"
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "was"
-                                        }
-                                    ],
-                                    "CorrectAnswer": "are ",
-                                    "CorrectOptions": [
-                                        2
-                                    ]
-                                },
-                                {
                                     "level": 1,
                                     "_OptionType": 1,
                                     "_Embaralhar": true,
@@ -170,36 +140,6 @@
                                 },
                                 {
                                     "level": 1,
-                                    "_OptionType": 0,
-                                    "_Embaralhar": true,
-                                    "_OptionAlign": 513,
-                                    "_Numerable": false,
-                                    "Pergunta": "Qual a forma correta do 'To Be' para 'He' no passado?",
-                                    "Options": [
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "were"
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "is"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "was"
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "are"
-                                        }
-                                    ],
-                                    "CorrectAnswer": "was ",
-                                    "CorrectOptions": [
-                                        2
-                                    ]
-                                },
-                                {
-                                    "level": 1,
                                     "_OptionType": 1,
                                     "_Embaralhar": true,
                                     "_OptionAlign": 513,
@@ -229,36 +169,6 @@
                                         1,
                                         2,
                                         3
-                                    ]
-                                },
-                                {
-                                    "level": 2,
-                                    "_OptionType": 0,
-                                    "_Embaralhar": true,
-                                    "_OptionAlign": 513,
-                                    "_Numerable": false,
-                                    "Pergunta": "Selecione a opção correta: The books ___ on the table.",
-                                    "Options": [
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "is"
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "was"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "are"
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "am"
-                                        }
-                                    ],
-                                    "CorrectAnswer": "are ",
-                                    "CorrectOptions": [
-                                        2
                                     ]
                                 },
                                 {
@@ -297,36 +207,6 @@
                                         2,
                                         3,
                                         4
-                                    ]
-                                },
-                                {
-                                    "level": 1,
-                                    "_OptionType": 0,
-                                    "_Embaralhar": true,
-                                    "_OptionAlign": 513,
-                                    "_Numerable": false,
-                                    "Pergunta": "Qual das frases está correta?",
-                                    "Options": [
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "She were tired."
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "I is a student."
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "They are friends."
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "We was late."
-                                        }
-                                    ],
-                                    "CorrectAnswer": "They are friends. ",
-                                    "CorrectOptions": [
-                                        2
                                     ]
                                 },
                                 {
