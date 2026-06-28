@@ -106,7 +106,7 @@
                                     "_Embaralhar": true,
                                     "_OptionAlign": 513,
                                     "_Numerable": false,
-                                    "Pergunta": "Monte a frase: Nós não somos daqui.",
+                                    "Pergunta": "<b>Monte a frase:</b> Nós não somos daqui.",
                                     "Options": [
                                         {
                                             "IsCorrect": true,
