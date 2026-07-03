@@ -21,11 +21,11 @@
             },
             "unidadesList": [
                 {
-                    "unidadeName": "VERBO TO BE",
+                    "unidadeName": "VERBO TO BE 1",
                     "shortDescription": "Aprenda a conjugar e usar o verbo mais fundamental do inglês em diversos contextos.",
                     "detailsSetup": {
                         "aulasSetup": [],
-                        "detailsData": "O verbo 'To Be' é a espinha dorsal da língua inglesa. Usado para falar sobre existência, características, localização e estado, ele é um dos primeiros verbos que todo estudante de inglês deve dominar. Nesta unidade, você praticará suas formas no presente (am, is, are) e no passado (was, were), além de aprender suas aplicações em perguntas e negações."
+                        "detailsData": "O verbo 'To Be' é a espinha dorsal da língua inglesa. Usado para falar sobre existência, características, localização e estado, ele é um dos primeiros verbos que todo estudante de inglês deve dominar. Nesta unidade, você praticará suas formas no presente (am, is, are) e no passado (was, were), além de aprender suas aplicações em perguntas e <color=#010005>negações.</color>"
                     },
                     "exercisesList": [
                         {
@@ -33,7 +33,7 @@
                             "shortDescription": "Conjugação básica no presente e passado, afirmações e negações.",
                             "detailsSetup": {
                                 "aulasSetup": [],
-                                "detailsData": "Neste exercício, você solidificará seu conhecimento sobre as formas básicas do verbo 'To Be' no presente simples (am, is, are) e no passado simples (was, were). Focaremos na formação de frases afirmativas, negativas e interrogativas, essenciais para a comunicação diária."
+                                "detailsData": "Neste exercício, você solidificará seu conhecimento<color=#4A16DA> </color>sobre as formas básicas do verbo 'To Be' no presente simples (am, is, are) e no passado simples (was, were). Focaremos na formação de frases afirmativas, negativas e interrogativas, essenciais para a comunicação diária."
                             },
                             "minutesDuration": 3,
                             "Questions": [
@@ -43,7 +43,7 @@
                                     "_Embaralhar": true,
                                     "_OptionAlign": 513,
                                     "_Numerable": false,
-                                    "Pergunta": "Qual a forma correta do 'To Be' para 'I' no presente?",
+                                    "Pergunta": "Qual a forma correta do verbo 'to be' para 'Eu' (I) no presente simples?",
                                     "Options": [
                                         {
                                             "IsCorrect": false,
@@ -56,10 +56,6 @@
                                         {
                                             "IsCorrect": true,
                                             "OptionAnswer": "am"
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "be"
                                         }
                                     ],
                                     "CorrectAnswer": "am ",
@@ -68,12 +64,12 @@
                                     ]
                                 },
                                 {
-                                    "level": 0,
+                                    "level": 1,
                                     "_OptionType": 1,
                                     "_Embaralhar": true,
                                     "_OptionAlign": 513,
                                     "_Numerable": false,
-                                    "Pergunta": "Monte a frase: Ela é uma médica.",
+                                    "Pergunta": "Organize as palavras para formar a frase: 'Ela não estava feliz ontem.'",
                                     "Options": [
                                         {
                                             "IsCorrect": true,
@@ -81,224 +77,60 @@
                                         },
                                         {
                                             "IsCorrect": true,
-                                            "OptionAnswer": "is"
+                                            "OptionAnswer": "wasn't"
                                         },
                                         {
                                             "IsCorrect": true,
-                                            "OptionAnswer": "a"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "doctor."
-                                        }
-                                    ],
-                                    "CorrectAnswer": "She is a doctor. ",
-                                    "CorrectOptions": [
-                                        0,
-                                        1,
-                                        2,
-                                        3
-                                    ]
-                                },
-                                {
-                                    "level": 1,
-                                    "_OptionType": 1,
-                                    "_Embaralhar": true,
-                                    "_OptionAlign": 513,
-                                    "_Numerable": false,
-                                    "Pergunta": "<b>Monte a frase:</b> Nós não somos daqui.",
-                                    "Options": [
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "We"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "are"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "not"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "from"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "here."
-                                        }
-                                    ],
-                                    "CorrectAnswer": "We are not from here. ",
-                                    "CorrectOptions": [
-                                        0,
-                                        1,
-                                        2,
-                                        3,
-                                        4
-                                    ]
-                                },
-                                {
-                                    "level": 1,
-                                    "_OptionType": 1,
-                                    "_Embaralhar": true,
-                                    "_OptionAlign": 513,
-                                    "_Numerable": false,
-                                    "Pergunta": "Monte a pergunta: Você estava em casa?",
-                                    "Options": [
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "Were"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "you"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "at"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "home?"
-                                        }
-                                    ],
-                                    "CorrectAnswer": "Were you at home? ",
-                                    "CorrectOptions": [
-                                        0,
-                                        1,
-                                        2,
-                                        3
-                                    ]
-                                },
-                                {
-                                    "level": 2,
-                                    "_OptionType": 1,
-                                    "_Embaralhar": true,
-                                    "_OptionAlign": 513,
-                                    "_Numerable": false,
-                                    "Pergunta": "Monte a frase: Eles não estavam prontos ontem.",
-                                    "Options": [
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "They"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "were"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "not"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "ready"
+                                            "OptionAnswer": "happy"
                                         },
                                         {
                                             "IsCorrect": true,
                                             "OptionAnswer": "yesterday."
                                         }
                                     ],
-                                    "CorrectAnswer": "They were not ready yesterday. ",
+                                    "CorrectAnswer": "She wasn't happy yesterday. ",
                                     "CorrectOptions": [
                                         0,
                                         1,
                                         2,
-                                        3,
-                                        4
+                                        3
                                     ]
                                 },
                                 {
                                     "level": 0,
-                                    "_OptionType": 1,
+                                    "_OptionType": 2,
                                     "_Embaralhar": true,
                                     "_OptionAlign": 513,
                                     "_Numerable": false,
-                                    "Pergunta": "Monte a frase: Eu estou com fome.",
-                                    "Options": [
+                                    "Pergunta": "Relacione as frases em inglês com suas traduções em português.",
+                                    "Options": [],
+                                    "CorrectAnswer": "",
+                                    "CorrectOptions": [],
+                                    "Pares": [
                                         {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "I"
+                                            "Left": "I am",
+                                            "Right": "Eu sou/estou"
                                         },
                                         {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "am"
+                                            "Left": "He is not",
+                                            "Right": "Ele não é/está"
                                         },
                                         {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "hungry."
+                                            "Left": "She was",
+                                            "Right": "Ela era/estava"
+                                        },
+                                        {
+                                            "Left": "They are",
+                                            "Right": "Eles são/estão"
+                                        },
+                                        {
+                                            "Left": "We were not",
+                                            "Right": "Nós não éramos/estávamos"
                                         }
-                                    ],
-                                    "CorrectAnswer": "I am hungry. ",
-                                    "CorrectOptions": [
-                                        0,
-                                        1,
-                                        2
-                                    ]
-                                },
-                                {
-                                    "level": 0,
-                                    "_OptionType": 0,
-                                    "_Embaralhar": true,
-                                    "_OptionAlign": 513,
-                                    "_Numerable": false,
-                                    "Pergunta": "Complete a frase: It ___ cold today.",
-                                    "Options": [
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "am"
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "are"
-                                        },
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "is"
-                                        }
-                                    ],
-                                    "CorrectAnswer": "is ",
-                                    "CorrectOptions": [
-                                        2
                                     ]
                                 }
                             ],
                             "ID": 1401864083
-                        },
-                        {
-                            "ExerciseName": "TESTE 01",
-                            "shortDescription": "TESTE 01",
-                            "detailsSetup": {
-                                "aulasSetup": [],
-                                "detailsData": "TESTE 01"
-                            },
-                            "minutesDuration": 1,
-                            "Questions": [
-                                {
-                                    "level": 0,
-                                    "_OptionType": 0,
-                                    "_Embaralhar": true,
-                                    "_OptionAlign": 513,
-                                    "_Numerable": false,
-                                    "Pergunta": "TESTE 01",
-                                    "Options": [
-                                        {
-                                            "IsCorrect": true,
-                                            "OptionAnswer": "TESTE 01"
-                                        },
-                                        {
-                                            "IsCorrect": false,
-                                            "OptionAnswer": "TESTE 02"
-                                        }
-                                    ],
-                                    "CorrectAnswer": "TESTE 01 ",
-                                    "CorrectOptions": [
-                                        0
-                                    ]
-                                }
-                            ],
-                            "ID": 1244482076
                         }
                     ]
                 }
