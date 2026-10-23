@@ -1,1105 +1,13 @@
 {
   "format": 2,
-  "version": 2,
-  "publishedAt": "2026-10-23T00:02:45Z",
+  "version": 3,
+  "publishedAt": "2026-10-23T00:11:15Z",
   "defaultCourseId": "ingles-basico",
   "courses": [
     {
-      "id": "portugues-basico",
-      "name": "Português Básico",
-      "description": "A gramática do português que o inglês pede: pessoas, classes de palavras, partes da frase e tempos verbais.",
-      "language": "pt",
-      "level": "basic",
-      "sections": [
-        {
-          "id": "pt-pessoas-e-numeros",
-          "name": "Pessoas e números",
-          "description": "",
-          "color": "#FF7AB6",
-          "onColor": "#16181D",
-          "details": [],
-          "topics": [
-            {
-              "id": "pt-pessoas",
-              "name": "Pessoas do discurso",
-              "englishName": "personal pronouns",
-              "description": "Quem fala, com quem se fala e de quem se fala, no singular e no plural.",
-              "level": null,
-              "details": [
-                {
-                  "type": "paragraph",
-                  "text": "Pessoa do discurso é o papel na conversa: **1ª** é quem fala, **2ª** é com quem se fala e **3ª** é de quem se fala."
-                },
-                {
-                  "type": "table",
-                  "header": [
-                    "Pessoa",
-                    "Singular",
-                    "Plural"
-                  ],
-                  "rows": [
-                    [
-                      "1ª (quem fala)",
-                      "eu → `I`",
-                      "nós → `we`"
-                    ],
-                    [
-                      "2ª (com quem se fala)",
-                      "você, tu → `you`",
-                      "vocês → `you`"
-                    ],
-                    [
-                      "3ª (de quem se fala)",
-                      "ele, ela → `he`, `she`, `it`",
-                      "eles, elas → `they`"
-                    ]
-                  ]
-                },
-                {
-                  "type": "tip",
-                  "text": "*Você* é com quem se fala, mas o verbo vai como na 3ª pessoa: *você está*, igual a *ele está*."
-                },
-                {
-                  "type": "tip",
-                  "text": "Para coisas e animais, o inglês usa `it`, que não existe no português: *a mesa* → `it`."
-                }
-              ],
-              "drills": [
-                {
-                  "id": 10001,
-                  "name": "Qual é a pessoa?",
-                  "description": "Diga o papel de cada pronome na conversa.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "\"Eu\" é qual pessoa?",
-                      "difficulty": "easy",
-                      "options": [
-                        "1ª pessoa",
-                        "2ª pessoa",
-                        "3ª pessoa"
-                      ],
-                      "correct": 0,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Eu* é quem fala: 1ª pessoa."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Ela\" é qual pessoa?",
-                      "difficulty": "easy",
-                      "options": [
-                        "1ª pessoa",
-                        "2ª pessoa",
-                        "3ª pessoa"
-                      ],
-                      "correct": 2,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Ela* é de quem se fala: 3ª pessoa."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Em \"Você está cansado?\", \"você\" é a pessoa:",
-                      "difficulty": "easy",
-                      "options": [
-                        "que fala",
-                        "com quem se fala",
-                        "de quem se fala"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Você* é a pessoa com quem se fala, mesmo levando o verbo como a 3ª pessoa (*você está*)."
-                    }
-                  ]
-                },
-                {
-                  "id": 10002,
-                  "name": "Singular e plural",
-                  "description": "Diga a pessoa e o número de cada pronome.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "\"Nós\" é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "1ª pessoa do singular",
-                        "1ª pessoa do plural",
-                        "3ª pessoa do plural"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Nós* é quem fala junto com outras pessoas: 1ª pessoa do plural."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Eles\" é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "3ª pessoa do singular",
-                        "2ª pessoa do plural",
-                        "3ª pessoa do plural"
-                      ],
-                      "correct": 2,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Eles* são as pessoas de quem se fala: 3ª pessoa do plural."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Qual destes pronomes é plural?",
-                      "difficulty": "easy",
-                      "options": [
-                        "ela",
-                        "vocês",
-                        "eu"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Vocês* fala com mais de uma pessoa; *ela* e *eu* são singular."
-                    }
-                  ]
-                },
-                {
-                  "id": 10003,
-                  "name": "Pronomes em inglês",
-                  "description": "Ligue cada pronome ao seu par em inglês.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "pairs",
-                      "prompt": "Ligue cada pronome à tradução.",
-                      "difficulty": "medium",
-                      "pairs": [
-                        {
-                          "left": "I",
-                          "right": "eu"
-                        },
-                        {
-                          "left": "he",
-                          "right": "ele"
-                        },
-                        {
-                          "left": "she",
-                          "right": "ela"
-                        },
-                        {
-                          "left": "we",
-                          "right": "nós"
-                        },
-                        {
-                          "left": "they",
-                          "right": "eles, elas"
-                        }
-                      ],
-                      "explanation": ""
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Você\" e \"vocês\" em inglês são:",
-                      "difficulty": "easy",
-                      "options": [
-                        "you e you",
-                        "you e your",
-                        "he e they"
-                      ],
-                      "correct": 0,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "Em inglês, `you` serve para uma ou para várias pessoas."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Para falar de uma coisa, como \"a mesa\", o inglês usa:",
-                      "difficulty": "easy",
-                      "options": [
-                        "he",
-                        "she",
-                        "it"
-                      ],
-                      "correct": 2,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "Coisas e animais são `it` em inglês; `he` e `she` são para pessoas."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "pt-concordancia",
-              "name": "Concordância do verbo",
-              "englishName": "subject-verb agreement",
-              "description": "O verbo muda conforme a pessoa e o número do sujeito: eu falo, ela fala, nós falamos.",
-              "level": null,
-              "details": [
-                {
-                  "type": "paragraph",
-                  "text": "O verbo **concorda** com o sujeito: muda conforme a pessoa e o número. *Eu falo, ela fala, nós falamos, eles falam.*"
-                },
-                {
-                  "type": "paragraph",
-                  "text": "O inglês faz o mesmo, só que menos: no presente, só a 3ª pessoa do singular muda (`I work`, `she works`)."
-                },
-                {
-                  "type": "examples",
-                  "items": [
-                    {
-                      "english": "She works here.",
-                      "portuguese": "Ela trabalha aqui."
-                    },
-                    {
-                      "english": "They work here.",
-                      "portuguese": "Eles trabalham aqui."
-                    }
-                  ]
-                },
-                {
-                  "type": "mistake",
-                  "wrong": "She work here.",
-                  "right": "She works here.",
-                  "why": "Com `he`, `she` e `it`, o verbo ganha **-s** no presente."
-                }
-              ],
-              "drills": [
-                {
-                  "id": 10011,
-                  "name": "O verbo combina com o sujeito",
-                  "description": "Escolha a forma do verbo que combina com a pessoa.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "Ela ___ inglês todo dia.",
-                      "difficulty": "easy",
-                      "options": [
-                        "estudo",
-                        "estuda",
-                        "estudam"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "O verbo concorda com *ela* (3ª pessoa do singular): *ela estuda*."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Nós ___ no centro.",
-                      "difficulty": "easy",
-                      "options": [
-                        "moramos",
-                        "mora",
-                        "moram"
-                      ],
-                      "correct": 0,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "Com *nós*, o verbo termina em -mos: *moramos*."
-                    },
-                    {
-                      "type": "build",
-                      "prompt": "Passe para o plural: O menino joga bola.",
-                      "difficulty": "medium",
-                      "tiles": [
-                        "Os",
-                        "meninos",
-                        "jogam",
-                        "bola.",
-                        "joga"
-                      ],
-                      "answer": [
-                        "Os",
-                        "meninos",
-                        "jogam",
-                        "bola."
-                      ],
-                      "shuffle": true,
-                      "explanation": "No plural, artigo, substantivo e verbo mudam juntos: *os meninos jogam*."
-                    }
-                  ]
-                },
-                {
-                  "id": 10012,
-                  "name": "Concordância no inglês",
-                  "description": "Veja a mesma regra no inglês: a 3ª pessoa do singular.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "Em \"She works\", o verbo ganhou -s porque o sujeito é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "1ª pessoa do singular",
-                        "3ª pessoa do singular",
-                        "3ª pessoa do plural"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "O -s do verbo aparece com a 3ª pessoa do singular: `he`, `she`, `it`."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Ela trabalha aqui.\" em inglês é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "She work here.",
-                        "She works here.",
-                        "She working here."
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "Com `she`, o verbo no presente ganha -s: `works`."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Eles trabalham aqui.\" em inglês é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "They works here.",
-                        "They work here.",
-                        "They is work here."
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "Com `they`, o verbo fica sem -s: `they work`."
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "pt-classes-de-palavras",
-          "name": "Classes de palavras",
-          "description": "",
-          "color": "#FF9F5A",
-          "onColor": "#16181D",
-          "details": [],
-          "topics": [
-            {
-              "id": "pt-classes",
-              "name": "Substantivo, adjetivo e verbo",
-              "englishName": "nouns, adjectives and verbs",
-              "description": "Reconheça o papel de cada palavra: nome de algo, característica ou ação.",
-              "level": null,
-              "details": [
-                {
-                  "type": "bullets",
-                  "items": [
-                    "**Substantivo**: nome de pessoa, coisa ou ideia (*casa*, *Maria*, *amor*).",
-                    "**Adjetivo**: característica do substantivo (*grande*, *bonita*).",
-                    "**Verbo**: ação ou estado (*correr*, *ser*, *estar*)."
-                  ]
-                },
-                {
-                  "type": "tip",
-                  "text": "Em inglês, o adjetivo vem **antes** do substantivo e não vai para o plural: `a big house`, `big houses`."
-                },
-                {
-                  "type": "mistake",
-                  "wrong": "beautifuls houses",
-                  "right": "beautiful houses",
-                  "why": "Adjetivo em inglês não tem plural."
-                }
-              ],
-              "drills": [
-                {
-                  "id": 10021,
-                  "name": "Qual é a classe?",
-                  "description": "Classifique a palavra pelo papel na frase.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "Em \"A casa é grande\", \"grande\" é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "substantivo",
-                        "verbo",
-                        "adjetivo"
-                      ],
-                      "correct": 2,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Grande* diz como a casa é, uma característica: adjetivo."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Em \"O menino corre\", \"corre\" é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "substantivo",
-                        "verbo",
-                        "adjetivo"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Corre* é a ação que o menino faz: verbo."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Em \"Comprei um carro\", \"carro\" é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "substantivo",
-                        "verbo",
-                        "adjetivo"
-                      ],
-                      "correct": 0,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Carro* é o nome de uma coisa: substantivo."
-                    }
-                  ]
-                },
-                {
-                  "id": 10022,
-                  "name": "Adjetivo no inglês",
-                  "description": "Coloque o adjetivo antes do substantivo e sem plural.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "\"Uma casa grande\" em inglês é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "a house big",
-                        "a big house",
-                        "a bigs house"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "Em inglês, o adjetivo vem antes do substantivo: `a big house`."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Casas bonitas\" em inglês é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "beautifuls houses",
-                        "beautiful houses",
-                        "houses beautifuls"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "Adjetivo em inglês não tem plural e vem antes: `beautiful houses`."
-                    },
-                    {
-                      "type": "build",
-                      "prompt": "Um carro vermelho.",
-                      "difficulty": "medium",
-                      "tiles": [
-                        "A",
-                        "red",
-                        "car.",
-                        "reds"
-                      ],
-                      "answer": [
-                        "A",
-                        "red",
-                        "car."
-                      ],
-                      "shuffle": true,
-                      "explanation": "O adjetivo vem antes e não muda: `a red car` (nunca `reds`)."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "pt-artigos",
-              "name": "Artigos: o, a, um, uma",
-              "englishName": "articles",
-              "description": "Definido (o, a) e indefinido (um, uma): a mesma ideia de the e a/an.",
-              "level": null,
-              "details": [
-                {
-                  "type": "paragraph",
-                  "text": "O artigo **definido** fala de algo específico (*o livro que eu comprei*); o **indefinido**, de algo qualquer (*um livro*)."
-                },
-                {
-                  "type": "table",
-                  "header": [
-                    "Tipo",
-                    "Português",
-                    "Inglês"
-                  ],
-                  "rows": [
-                    [
-                      "Definido",
-                      "o, a, os, as",
-                      "`the`"
-                    ],
-                    [
-                      "Indefinido",
-                      "um, uma",
-                      "`a`, `an`"
-                    ]
-                  ]
-                },
-                {
-                  "type": "tip",
-                  "text": "Use `an` antes de som de vogal: `an apple`, `an hour`."
-                }
-              ],
-              "drills": [
-                {
-                  "id": 10031,
-                  "name": "Definido ou indefinido?",
-                  "description": "Diga se o artigo fala de algo específico ou qualquer.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "Em \"Comprei um livro\", \"um\" é artigo:",
-                      "difficulty": "easy",
-                      "options": [
-                        "definido",
-                        "indefinido"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Um* fala de um livro qualquer: artigo indefinido."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Em \"O livro é novo\", \"o\" é artigo:",
-                      "difficulty": "easy",
-                      "options": [
-                        "definido",
-                        "indefinido"
-                      ],
-                      "correct": 0,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*O* fala de um livro específico: artigo definido."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Qual frase fala de um livro específico?",
-                      "difficulty": "easy",
-                      "options": [
-                        "Quero um livro.",
-                        "Quero o livro que você leu."
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*O livro que você leu* é um livro específico; *um livro* é qualquer um."
-                    }
-                  ]
-                },
-                {
-                  "id": 10032,
-                  "name": "Artigos em inglês",
-                  "description": "o, a = the; um, uma = a ou an.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "\"O carro\" em inglês é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "a car",
-                        "the car",
-                        "an car"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "O artigo definido (*o*, *a*) em inglês é `the`."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Uma maçã\" em inglês é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "a apple",
-                        "an apple",
-                        "the apples"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "`Apple` começa com som de vogal, então *uma* vira `an`."
-                    },
-                    {
-                      "type": "pairs",
-                      "prompt": "Ligue cada artigo ao português.",
-                      "difficulty": "medium",
-                      "pairs": [
-                        {
-                          "left": "the",
-                          "right": "o, a, os, as"
-                        },
-                        {
-                          "left": "a",
-                          "right": "um, uma (antes de consoante)"
-                        },
-                        {
-                          "left": "an",
-                          "right": "um, uma (antes de som de vogal)"
-                        }
-                      ],
-                      "explanation": ""
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "pt-frase",
-          "name": "A frase",
-          "description": "",
-          "color": "#C08CFF",
-          "onColor": "#16181D",
-          "details": [],
-          "topics": [
-            {
-              "id": "pt-sujeito",
-              "name": "Sujeito e predicado",
-              "englishName": "subject and predicate",
-              "description": "Quem faz a ação (sujeito) e o que se diz dele (predicado).",
-              "level": null,
-              "details": [
-                {
-                  "type": "paragraph",
-                  "text": "**Sujeito** é de quem se fala; **predicado** é o que se diz dele: *[Meu irmão] [mora em Recife].*"
-                },
-                {
-                  "type": "paragraph",
-                  "text": "Em português, o sujeito pode ficar escondido no verbo (*Moramos em Recife*) ou nem existir (*Choveu*). Em inglês, **toda frase tem sujeito**: `We live in Recife`, `It rained`."
-                },
-                {
-                  "type": "mistake",
-                  "wrong": "Is cold today.",
-                  "right": "It is cold today.",
-                  "why": "Sem sujeito no português? Em inglês, use `it`."
-                }
-              ],
-              "drills": [
-                {
-                  "id": 10041,
-                  "name": "Ache o sujeito",
-                  "description": "Encontre de quem a frase fala.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "Em \"Meu irmão mora em Recife\", o sujeito é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "Meu irmão",
-                        "mora",
-                        "em Recife"
-                      ],
-                      "correct": 0,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Meu irmão* é de quem a frase fala: o sujeito."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Em \"Moramos em Recife\", o sujeito é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "Recife",
-                        "nós (escondido no verbo)",
-                        "não há sujeito"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "O sujeito não aparece, mas o verbo *moramos* mostra que é *nós*."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Em \"Choveu ontem\", o sujeito é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "ontem",
-                        "não há sujeito",
-                        "choveu"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "Verbos de fenômenos da natureza (*chover*, *ventar*) não têm sujeito."
-                    }
-                  ]
-                },
-                {
-                  "id": 10042,
-                  "name": "Sujeito no inglês",
-                  "description": "Em inglês, toda frase precisa de sujeito.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "\"Está frio.\" em inglês é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "Is cold.",
-                        "It is cold.",
-                        "Cold is."
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "O inglês sempre precisa de sujeito; quando não há um, usa `it`."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Sou professor.\" em inglês é:",
-                      "difficulty": "easy",
-                      "options": [
-                        "Am a teacher.",
-                        "I am a teacher.",
-                        "I teacher."
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "No português o *eu* fica escondido no verbo; no inglês o `I` é obrigatório."
-                    },
-                    {
-                      "type": "build",
-                      "prompt": "Choveu ontem.",
-                      "difficulty": "medium",
-                      "tiles": [
-                        "It",
-                        "rained",
-                        "yesterday.",
-                        "Is"
-                      ],
-                      "answer": [
-                        "It",
-                        "rained",
-                        "yesterday."
-                      ],
-                      "shuffle": true,
-                      "explanation": "Sem sujeito no português, o inglês usa `it`: `It rained`."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "pt-tipos-de-frase",
-              "name": "Afirmativa, negativa e pergunta",
-              "englishName": "sentence types",
-              "description": "Os três tipos de frase que você vai treinar em inglês.",
-              "level": null,
-              "details": [
-                {
-                  "type": "bullets",
-                  "items": [
-                    "**Afirmativa**: *Ela trabalha aqui.*",
-                    "**Negativa**: *Ela não trabalha aqui.*",
-                    "**Interrogativa** (pergunta): *Ela trabalha aqui?*"
-                  ]
-                },
-                {
-                  "type": "tip",
-                  "text": "No português, a pergunta muitas vezes só muda a entonação. No inglês, a frase muda: `She works here.` → `Does she work here?`"
-                }
-              ],
-              "drills": [
-                {
-                  "id": 10051,
-                  "name": "Que tipo de frase é?",
-                  "description": "Classifique a frase em afirmativa, negativa ou interrogativa.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "\"Você gosta de café?\" é uma frase:",
-                      "difficulty": "easy",
-                      "options": [
-                        "afirmativa",
-                        "negativa",
-                        "interrogativa"
-                      ],
-                      "correct": 2,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "A frase pergunta algo: é interrogativa."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Ela não trabalha aqui.\" é uma frase:",
-                      "difficulty": "easy",
-                      "options": [
-                        "afirmativa",
-                        "negativa",
-                        "interrogativa"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "O *não* torna a frase negativa."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Nós moramos no Brasil.\" é uma frase:",
-                      "difficulty": "easy",
-                      "options": [
-                        "afirmativa",
-                        "negativa",
-                        "interrogativa"
-                      ],
-                      "correct": 0,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "Sem *não* e sem pergunta: frase afirmativa."
-                    }
-                  ]
-                },
-                {
-                  "id": 10052,
-                  "name": "Transforme a frase",
-                  "description": "Passe a frase para a negativa ou para a pergunta.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "build",
-                      "prompt": "Passe para a negativa: Eu gosto de chá.",
-                      "difficulty": "medium",
-                      "tiles": [
-                        "Eu",
-                        "não",
-                        "gosto",
-                        "de",
-                        "chá.",
-                        "nem"
-                      ],
-                      "answer": [
-                        "Eu",
-                        "não",
-                        "gosto",
-                        "de",
-                        "chá."
-                      ],
-                      "shuffle": true,
-                      "explanation": "Para negar, coloque *não* antes do verbo: *Eu não gosto*."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Qual é a pergunta de \"Ele mora aqui.\"?",
-                      "difficulty": "easy",
-                      "options": [
-                        "Ele mora aqui?",
-                        "Mora aqui ele.",
-                        "Ele não mora aqui."
-                      ],
-                      "correct": 0,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "No português, a pergunta pode manter a ordem e só mudar a entonação (o ponto de interrogação)."
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "pt-tempos-verbais",
-          "name": "Tempos verbais",
-          "description": "",
-          "color": "#FFC107",
-          "onColor": "#000000",
-          "details": [],
-          "topics": [
-            {
-              "id": "pt-tempos",
-              "name": "Presente, passado e futuro",
-              "englishName": "verb tenses",
-              "description": "Diga quando a ação acontece, pelo verbo e pelas palavras de tempo.",
-              "level": null,
-              "details": [
-                {
-                  "type": "table",
-                  "header": [
-                    "Tempo",
-                    "Português",
-                    "Inglês"
-                  ],
-                  "rows": [
-                    [
-                      "Presente",
-                      "eu trabalho",
-                      "`I work`"
-                    ],
-                    [
-                      "Passado",
-                      "eu trabalhei",
-                      "`I worked`"
-                    ],
-                    [
-                      "Futuro",
-                      "eu vou trabalhar",
-                      "`I will work`"
-                    ]
-                  ]
-                },
-                {
-                  "type": "tip",
-                  "text": "Palavras de tempo ajudam a achar o tempo da frase: *ontem* (`yesterday`) indica passado; *amanhã* (`tomorrow`), futuro."
-                }
-              ],
-              "drills": [
-                {
-                  "id": 10061,
-                  "name": "Quando acontece?",
-                  "description": "Diga se a ação está no presente, no passado ou no futuro.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "choice",
-                      "prompt": "\"Ontem eu estudei.\" O verbo está no:",
-                      "difficulty": "easy",
-                      "options": [
-                        "presente",
-                        "passado",
-                        "futuro"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Estudei* (e *ontem*) mostram uma ação que já aconteceu: passado."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Amanhã nós vamos viajar.\" A ação está no:",
-                      "difficulty": "easy",
-                      "options": [
-                        "presente",
-                        "passado",
-                        "futuro"
-                      ],
-                      "correct": 2,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Amanhã* e *vamos viajar* indicam o que ainda vai acontecer: futuro."
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "\"Ela trabalha todo dia.\" O verbo está no:",
-                      "difficulty": "easy",
-                      "options": [
-                        "presente",
-                        "passado",
-                        "futuro"
-                      ],
-                      "correct": 0,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Trabalha todo dia* é um hábito de agora: presente."
-                    }
-                  ]
-                },
-                {
-                  "id": 10062,
-                  "name": "Palavras de tempo",
-                  "description": "Ligue as palavras que mostram o tempo da frase.",
-                  "minutes": 2,
-                  "shuffleQuestions": true,
-                  "details": [],
-                  "questions": [
-                    {
-                      "type": "pairs",
-                      "prompt": "Ligue cada palavra à tradução.",
-                      "difficulty": "medium",
-                      "pairs": [
-                        {
-                          "left": "yesterday",
-                          "right": "ontem"
-                        },
-                        {
-                          "left": "tomorrow",
-                          "right": "amanhã"
-                        },
-                        {
-                          "left": "every day",
-                          "right": "todo dia"
-                        },
-                        {
-                          "left": "now",
-                          "right": "agora"
-                        }
-                      ],
-                      "explanation": ""
-                    },
-                    {
-                      "type": "choice",
-                      "prompt": "Qual palavra indica passado?",
-                      "difficulty": "easy",
-                      "options": [
-                        "amanhã",
-                        "ontem",
-                        "sempre"
-                      ],
-                      "correct": 1,
-                      "shuffle": true,
-                      "numbered": false,
-                      "explanation": "*Ontem* aponta para um tempo que já passou: passado."
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "ingles-basico",
       "name": "Inglês Básico",
-      "description": "O essencial para montar frases: to be, presente, passado, perguntas e preposições.",
+      "description": "Do verbo to be ao vocabulário do dia a dia: tempos verbais, perguntas, pronomes, preposições e adjetivos.",
       "language": "en",
       "level": "basic",
       "sections": [
@@ -1115,41 +23,41 @@
               "id": "to-be",
               "name": "Verbo to be",
               "englishName": "to be",
-              "description": "Pratique am, is e are em afirmativas, negativas e perguntas, e o passado was/were.",
+              "description": "Am, is, are e was, were: ser e estar em afirmativas, negativas e perguntas.",
               "level": null,
               "details": [
                 {
                   "type": "paragraph",
-                  "text": "O `to be` é ao mesmo tempo **ser** e **estar**: `I am a teacher` (sou professor) e `I am tired` (estou cansado). A forma muda conforme a pessoa e o tempo."
+                  "text": "`To be` quer dizer **ser** ou **estar**: o inglês não separa os dois. `She is a nurse` (ela é enfermeira), `She is at work` (ela está no trabalho). A forma muda com a pessoa e com o tempo, e a frase precisa dele quando não há outro verbo."
                 },
                 {
                   "type": "table",
                   "header": [
                     "Pessoa",
-                    "Presente",
-                    "Passado"
+                    "Agora (presente)",
+                    "Antes (passado)"
                   ],
                   "rows": [
                     [
                       "`I`",
-                      "`am`",
+                      "`am` · `I'm`",
                       "`was`"
                     ],
                     [
-                      "`he`, `she`, `it`",
-                      "`is`",
+                      "`he` / `she` / `it`",
+                      "`is` · `she's`",
                       "`was`"
                     ],
                     [
-                      "`you`, `we`, `they`",
-                      "`are`",
+                      "`you` / `we` / `they`",
+                      "`are` · `we're`",
                       "`were`"
                     ]
                   ]
                 },
                 {
                   "type": "tip",
-                  "text": "Na conversa, quase sempre se usa a forma curta: `I'm`, `you're`, `she's`, `isn't`, `aren't`."
+                  "text": "Para negar, ponha `not` depois do `to be` (`isn't`, `wasn't`). Para perguntar, troque o `to be` de lugar com o sujeito (`Is she...?`)."
                 },
                 {
                   "type": "mistake",
@@ -1162,60 +70,60 @@
                 {
                   "id": 1001,
                   "name": "Afirmativas: am, is, are",
-                  "description": "Escolha a forma certa para cada pessoa.",
+                  "description": "Use am, is ou are conforme o sujeito.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
                     {
                       "type": "structure",
-                      "text": "Sujeito + `am` / `is` / `are` + complemento"
+                      "text": "Sujeito + `am`, `is` ou `are` + o resto (lugar, adjetivo, profissão)"
                     },
                     {
                       "type": "bullets",
                       "items": [
-                        "`I` → `am`",
-                        "Uma pessoa ou coisa (`he`, `she`, `it`, `my mother`) → `is`",
-                        "Duas ou mais, e `you` → `are`"
+                        "Só `I` usa `am`: `I am ready.`",
+                        "`he`, `she`, `it` e qualquer coisa no singular usam `is`: `The door is open.`",
+                        "`you`, `we`, `they` e o plural usam `are`: `The kids are outside.`"
                       ]
                     },
                     {
                       "type": "examples",
                       "items": [
                         {
-                          "english": "She is a teacher.",
-                          "portuguese": "Ela é professora."
+                          "english": "I am a nurse.",
+                          "portuguese": "Sou enfermeira."
                         },
                         {
-                          "english": "We are at home.",
-                          "portuguese": "Nós estamos em casa."
+                          "english": "The museum is closed.",
+                          "portuguese": "O museu está fechado."
                         },
                         {
-                          "english": "My parents are from Brazil.",
-                          "portuguese": "Meus pais são do Brasil."
+                          "english": "You are late.",
+                          "portuguese": "Você está atrasado."
                         }
                       ]
                     },
                     {
                       "type": "mistake",
-                      "wrong": "She are a teacher.",
-                      "right": "She is a teacher.",
-                      "why": "Uma pessoa só (`she`) pede `is`."
+                      "wrong": "My friends is here.",
+                      "right": "My friends are here.",
+                      "why": "`My friends` é plural: `are`."
                     }
                   ],
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "She ___ a teacher.",
+                      "prompt": "My cousins ___ from Recife.",
                       "difficulty": "easy",
                       "options": [
-                        "am",
+                        "are",
                         "is",
-                        "are"
+                        "am"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Com uma pessoa só (`she`), o `to be` é `is`."
+                      "explanation": "`My cousins` são várias pessoas: `are`."
                     },
                     {
                       "type": "choice",
@@ -1461,64 +369,64 @@
                 {
                   "id": 1002,
                   "name": "Negativas",
-                  "description": "Negue frases com am not, is not e are not.",
+                  "description": "Diga o que não é ou não está: isn't, aren't, I'm not.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
                     {
                       "type": "structure",
-                      "text": "Sujeito + `am` / `is` / `are` + **not** + complemento"
+                      "text": "Sujeito + `to be` + `not` + o resto"
                     },
                     {
                       "type": "examples",
                       "items": [
                         {
-                          "english": "I am not hungry.",
-                          "portuguese": "Não estou com fome."
+                          "english": "I'm not ready.",
+                          "portuguese": "Não estou pronto."
                         },
                         {
-                          "english": "He isn't at home.",
-                          "portuguese": "Ele não está em casa."
+                          "english": "The bank isn't open today.",
+                          "portuguese": "O banco não está aberto hoje."
                         },
                         {
-                          "english": "They aren't ready.",
-                          "portuguese": "Eles não estão prontos."
+                          "english": "We aren't brothers.",
+                          "portuguese": "Não somos irmãos."
                         }
                       ]
                     },
                     {
                       "type": "mistake",
-                      "wrong": "He not is at home.",
-                      "right": "He is not at home.",
-                      "why": "O `not` vem **depois** do `to be`. E não se usa `don't` com ele."
+                      "wrong": "We don't are tired.",
+                      "right": "We aren't tired.",
+                      "why": "Com o `to be` não se usa `don't`: o `not` vem depois do verbo."
                     },
                     {
                       "type": "tip",
-                      "text": "Formas curtas: `isn't`, `aren't`. O `am not` não encurta: diga `I'm not`."
+                      "text": "Formas curtas: `is not` → `isn't`, `are not` → `aren't`; com `I`, só `I'm not`."
                     }
                   ],
                   "questions": [
                     {
                       "type": "build",
-                      "prompt": "Ele não está em casa.",
+                      "prompt": "A loja não está aberta.",
                       "difficulty": "medium",
                       "tiles": [
-                        "He",
+                        "The",
+                        "store",
                         "is",
                         "not",
-                        "at",
-                        "home.",
+                        "open.",
                         "are"
                       ],
                       "answer": [
-                        "He",
+                        "The",
+                        "store",
                         "is",
                         "not",
-                        "at",
-                        "home."
+                        "open."
                       ],
                       "shuffle": true,
-                      "explanation": "Com `he`, use `is`, e o `not` vem logo depois dele: `He is not`."
+                      "explanation": "Com `the store` (uma coisa), `is`; o `not` vem logo depois."
                     },
                     {
                       "type": "choice",
@@ -1761,56 +669,56 @@
                 {
                   "id": 1003,
                   "name": "Perguntas e respostas curtas",
-                  "description": "Monte perguntas e responda com Yes, she is / No, she isn't.",
+                  "description": "Pergunte com o to be na frente e responda Yes, it is / No, it isn't.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
                     {
                       "type": "structure",
-                      "text": "`Am` / `Is` / `Are` + sujeito + complemento + ?"
+                      "text": "`Am` / `Is` / `Are` + sujeito + o resto + `?` · resposta: `Yes, I am.` / `No, she isn't.`"
                     },
                     {
                       "type": "paragraph",
-                      "text": "Na pergunta, o verbo **troca de lugar** com o sujeito: `She is ready.` → `Is she ready?`"
+                      "text": "Para perguntar, o `to be` vai para **antes** do sujeito: `They are here.` → `Are they here?` A resposta curta repete o sujeito e o `to be`."
                     },
                     {
                       "type": "examples",
                       "items": [
                         {
-                          "english": "Are you a student? Yes, I am.",
-                          "portuguese": "Você é estudante? Sim, sou."
+                          "english": "Is the restaurant open? Yes, it is.",
+                          "portuguese": "O restaurante está aberto? Sim, está."
                         },
                         {
-                          "english": "Is it cold? No, it isn't.",
-                          "portuguese": "Está frio? Não, não está."
+                          "english": "Are your parents Brazilian? No, they aren't.",
+                          "portuguese": "Seus pais são brasileiros? Não, não são."
                         }
                       ]
                     },
                     {
                       "type": "mistake",
-                      "wrong": "You are a student?",
-                      "right": "Are you a student?",
-                      "why": "Só a entonação não faz a pergunta: o verbo vem antes do sujeito."
+                      "wrong": "She is your sister?",
+                      "right": "Is she your sister?",
+                      "why": "Só a entonação não faz a pergunta: o `to be` vem antes do sujeito."
                     },
                     {
                       "type": "tip",
-                      "text": "Na resposta curta com *yes*, não use forma curta: `Yes, I am` (e não `Yes, I'm`)."
+                      "text": "No *sim*, a resposta curta fica inteira: `Yes, it is` (nunca `Yes, it's`)."
                     }
                   ],
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "___ they ready? Yes, they are.",
+                      "prompt": "___ your brother at work? No, he isn't.",
                       "difficulty": "easy",
                       "options": [
                         "Is",
                         "Are",
-                        "Am"
+                        "Does"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Na pergunta, o verbo vem antes do sujeito; com `they`, o `to be` é `are`."
+                      "explanation": "`Your brother` é uma pessoa só: a pergunta começa com `Is`."
                     },
                     {
                       "type": "choice",
@@ -2058,57 +966,57 @@
                 {
                   "id": 1004,
                   "name": "Passado: was, were",
-                  "description": "Use was e were nas frases no passado.",
+                  "description": "Fale do passado com was e were.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
                     {
                       "type": "structure",
-                      "text": "Sujeito + `was` / `were` + complemento"
+                      "text": "Sujeito + `was` ou `were` + o resto"
                     },
                     {
                       "type": "bullets",
                       "items": [
-                        "`I`, `he`, `she`, `it` → `was`",
-                        "`you`, `we`, `they` → `were`"
+                        "`was`: `I`, `he`, `she`, `it` e o singular",
+                        "`were`: `you`, `we`, `they` e o plural"
                       ]
                     },
                     {
                       "type": "examples",
                       "items": [
                         {
-                          "english": "I was tired yesterday.",
-                          "portuguese": "Eu estava cansado ontem."
+                          "english": "The movie was great.",
+                          "portuguese": "O filme foi ótimo."
                         },
                         {
-                          "english": "They were at the party.",
-                          "portuguese": "Eles estavam na festa."
+                          "english": "We were at the beach last weekend.",
+                          "portuguese": "Estávamos na praia no fim de semana passado."
                         },
                         {
-                          "english": "Was she at work? No, she wasn't.",
-                          "portuguese": "Ela estava no trabalho? Não, não estava."
+                          "english": "Were you sick? No, I wasn't.",
+                          "portuguese": "Você estava doente? Não, não estava."
                         }
                       ]
                     },
                     {
                       "type": "tip",
-                      "text": "Negativa e pergunta funcionam como no presente: `wasn't`, `weren't`, `Were you...?`"
+                      "text": "No passado, nega-se e pergunta-se como no presente: `wasn't`, `weren't`, `Was it...?`"
                     }
                   ],
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "We ___ tired yesterday.",
+                      "prompt": "The kids ___ sick last Monday.",
                       "difficulty": "easy",
                       "options": [
-                        "was",
                         "were",
+                        "was",
                         "are"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "`Yesterday` pede passado, e com `we` o passado do `to be` é `were`."
+                      "explanation": "`Last Monday` pede passado; `the kids` é plural: `were`."
                     },
                     {
                       "type": "choice",
@@ -2650,107 +1558,106 @@
                 {
                   "id": 1005,
                   "name": "Tudo misturado",
-                  "description": "Afirmativas, negativas, perguntas e passado juntos.",
+                  "description": "Presente, passado, negativas e perguntas do to be juntos.",
                   "minutes": 3,
                   "shuffleQuestions": false,
                   "details": [],
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "Qual a forma do to be para 'I' no presente?",
+                      "prompt": "Ontem eu estava em casa.",
                       "difficulty": "easy",
                       "options": [
-                        "is",
-                        "are",
-                        "am",
-                        "be"
+                        "I was at home yesterday.",
+                        "I were at home yesterday.",
+                        "I am at home yesterday."
                       ],
-                      "correct": 2,
-                      "shuffle": false,
+                      "correct": 0,
+                      "shuffle": true,
                       "numbered": false,
-                      "explanation": "Com `I`, o `to be` no presente é sempre `am`."
+                      "explanation": "Passado com `I`: `was`."
                     },
                     {
                       "type": "build",
-                      "prompt": "Ela é médica.",
+                      "prompt": "Meu pai é engenheiro.",
                       "difficulty": "easy",
                       "tiles": [
-                        "She",
+                        "My",
+                        "father",
                         "is",
+                        "an",
+                        "engineer.",
                         "a",
-                        "doctor.",
-                        "are",
-                        "an"
+                        "are"
                       ],
                       "answer": [
-                        "She",
+                        "My",
+                        "father",
                         "is",
-                        "a",
-                        "doctor."
+                        "an",
+                        "engineer."
                       ],
                       "shuffle": true,
-                      "explanation": "Com `she`, use `is`; e profissão leva artigo em inglês: `a doctor` (som de consoante, então `a`)."
+                      "explanation": "Com `my father` (uma pessoa), `is`; `engineer` começa com som de vogal: `an`."
                     },
                     {
                       "type": "pairs",
-                      "prompt": "Ligue as frases às traduções.",
+                      "prompt": "Ligue à tradução.",
                       "difficulty": "medium",
                       "pairs": [
                         {
-                          "left": "I am",
-                          "right": "Eu sou/estou"
+                          "left": "You are",
+                          "right": "Você é / está"
                         },
                         {
-                          "left": "He is not",
-                          "right": "Ele não é/está"
+                          "left": "She was",
+                          "right": "Ela era / estava"
                         },
                         {
-                          "left": "They are",
-                          "right": "Eles são/estão"
+                          "left": "We are not",
+                          "right": "Nós não somos / estamos"
                         },
                         {
-                          "left": "We were",
-                          "right": "Nós éramos/estávamos"
+                          "left": "They were",
+                          "right": "Eles eram / estavam"
                         }
                       ],
-                      "explanation": ""
+                      "explanation": "Presente: `am`, `is`, `are`; passado: `was`, `were`."
                     },
                     {
                       "type": "choice",
-                      "prompt": "They ___ happy.",
+                      "prompt": "The coffee ___ hot.",
                       "difficulty": "easy",
                       "options": [
                         "is",
-                        "am",
                         "are",
-                        "was"
+                        "am",
+                        "were"
                       ],
-                      "correct": 2,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Com `they` (eles), o `to be` no presente é `are`."
+                      "explanation": "Uma coisa só (`the coffee`): `is`."
                     },
                     {
                       "type": "build",
-                      "prompt": "Nós não somos daqui.",
+                      "prompt": "Vocês não estavam atrasados.",
                       "difficulty": "medium",
                       "tiles": [
-                        "We",
-                        "are",
+                        "You",
+                        "were",
                         "not",
-                        "from",
-                        "here.",
-                        "is"
+                        "late.",
+                        "was"
                       ],
                       "answer": [
-                        "We",
-                        "are",
+                        "You",
+                        "were",
                         "not",
-                        "from",
-                        "here."
+                        "late."
                       ],
                       "shuffle": true,
-                      "explanation": "Com `we`, use `are`; o `not` vem logo depois: `We are not`."
+                      "explanation": "Com `you`, o passado é `were`; o `not` vem logo depois."
                     },
                     {
                       "type": "choice",
@@ -2921,12 +1828,12 @@
               "id": "presente-simples",
               "name": "Presente simples",
               "englishName": "simple present",
-              "description": "Rotinas e fatos: o -s da 3ª pessoa, do e does.",
+              "description": "Hábitos e fatos: o -s de he, she, it e os auxiliares do e does.",
               "level": null,
               "details": [
                 {
                   "type": "paragraph",
-                  "text": "Com `he`, `she` e `it`, o verbo ganha **-s**: `she works`. Negativas e perguntas usam `do` / `does`."
+                  "text": "O presente simples fala de **rotinas, hábitos e fatos**: `I study at night`, `Water boils at 100 °C`. Só com `he`, `she` e `it` o verbo muda (ganha **-s**); a negativa e a pergunta usam o auxiliar `do` ou `does`."
                 },
                 {
                   "type": "table",
@@ -2966,7 +1873,7 @@
                 {
                   "id": 2001,
                   "name": "Afirmativas e o -s da 3ª pessoa",
-                  "description": "Conjugue o verbo para cada pessoa.",
+                  "description": "Ponha o -s no verbo só com he, she e it.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -3001,17 +1908,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "He ___ in a bank.",
+                      "prompt": "My dog ___ in the garden.",
                       "difficulty": "easy",
                       "options": [
-                        "work",
-                        "works",
-                        "working"
+                        "sleeps",
+                        "sleep",
+                        "sleeping"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "No presente, com `he`, `she` e `it`, o verbo ganha **-s**: `he works`."
+                      "explanation": "Com `my dog` (como `it`), o verbo ganha **-s**."
                     },
                     {
                       "type": "choice",
@@ -3525,7 +2432,7 @@
                 {
                   "id": 2002,
                   "name": "Negativas com don't e doesn't",
-                  "description": "Negue frases no presente simples.",
+                  "description": "Negue com don't ou doesn't e o verbo sem -s.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -3556,23 +2463,25 @@
                   "questions": [
                     {
                       "type": "build",
-                      "prompt": "Ela não gosta de café.",
+                      "prompt": "Ele não trabalha aos domingos.",
                       "difficulty": "medium",
                       "tiles": [
-                        "She",
+                        "He",
                         "doesn't",
-                        "like",
-                        "coffee.",
+                        "work",
+                        "on",
+                        "Sundays.",
                         "don't"
                       ],
                       "answer": [
-                        "She",
+                        "He",
                         "doesn't",
-                        "like",
-                        "coffee."
+                        "work",
+                        "on",
+                        "Sundays."
                       ],
                       "shuffle": true,
-                      "explanation": "Com `she`, a negativa usa `doesn't` + verbo sem -s: `She doesn't like`."
+                      "explanation": "Com `he`, `doesn't` + verbo sem -s."
                     },
                     {
                       "type": "choice",
@@ -3807,7 +2716,7 @@
                 {
                   "id": 2003,
                   "name": "Perguntas com do e does",
-                  "description": "Monte perguntas no presente simples.",
+                  "description": "Pergunte com Do ou Does antes do sujeito.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -3842,7 +2751,7 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "___ you speak English?",
+                      "prompt": "___ they live near here?",
                       "difficulty": "easy",
                       "options": [
                         "Do",
@@ -3852,7 +2761,7 @@
                       "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Pergunta no presente com `you` começa com `Do`. `Does` é só para `he`, `she` e `it`."
+                      "explanation": "Pergunta no presente com `they`: `Do`."
                     },
                     {
                       "type": "choice",
@@ -4370,24 +3279,24 @@
                 {
                   "id": 2004,
                   "name": "Tudo misturado",
-                  "description": "Afirmativas, negativas e perguntas juntas.",
+                  "description": "Afirmar, negar e perguntar no presente simples, tudo junto.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [],
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "My brother ___ like fish.",
+                      "prompt": "Ana ___ TV in the morning.",
                       "difficulty": "easy",
                       "options": [
-                        "don't",
-                        "doesn't",
-                        "isn't"
+                        "doesn't watch",
+                        "don't watch",
+                        "doesn't watches"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "`My brother` é uma pessoa só (como `he`), então a negativa é `doesn't`."
+                      "explanation": "Com `Ana` (como `she`), `doesn't` + verbo na forma base."
                     },
                     {
                       "type": "choice",
@@ -4630,7 +3539,7 @@
               "id": "presente-continuo",
               "name": "Presente contínuo",
               "englishName": "present continuous",
-              "description": "O que está acontecendo agora: am/is/are + -ing.",
+              "description": "O que está acontecendo agora: to be + verbo com -ing.",
               "level": null,
               "details": [
                 {
@@ -4949,7 +3858,7 @@
                 {
                   "id": 4001,
                   "name": "Afirmativas",
-                  "description": "Monte frases com am/is/are + verbo com -ing.",
+                  "description": "Diga o que está acontecendo: am, is ou are + -ing.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -4984,17 +3893,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "They ___ playing now.",
+                      "prompt": "Look! The baby ___ smiling.",
                       "difficulty": "easy",
                       "options": [
                         "is",
                         "are",
                         "am"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Presente contínuo é `to be` + verbo com -ing; com `they`: `are playing`."
+                      "explanation": "`The baby` é um só: `is` + -ing."
                     },
                     {
                       "type": "choice",
@@ -5226,7 +4135,7 @@
                 {
                   "id": 4002,
                   "name": "Negativas e perguntas",
-                  "description": "Negue e pergunte no presente contínuo.",
+                  "description": "Negue com not e pergunte com o to be na frente.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -5257,21 +4166,23 @@
                   "questions": [
                     {
                       "type": "build",
-                      "prompt": "Você está estudando?",
+                      "prompt": "Eles estão assistindo TV?",
                       "difficulty": "medium",
                       "tiles": [
                         "Are",
-                        "you",
-                        "studying?",
+                        "they",
+                        "watching",
+                        "TV?",
                         "Do"
                       ],
                       "answer": [
                         "Are",
-                        "you",
-                        "studying?"
+                        "they",
+                        "watching",
+                        "TV?"
                       ],
                       "shuffle": true,
-                      "explanation": "No presente contínuo, a pergunta inverte o `to be`: `Are you studying?` (sem `do`)."
+                      "explanation": "No presente contínuo, a pergunta começa com o `to be`: `Are they...?`"
                     },
                     {
                       "type": "choice",
@@ -5493,7 +4404,7 @@
               "id": "passado-simples",
               "name": "Passado simples",
               "englishName": "simple past",
-              "description": "Ações terminadas: verbos regulares e irregulares, did e didn't.",
+              "description": "O que já aconteceu: -ed, irregulares e o auxiliar did.",
               "level": null,
               "details": [
                 {
@@ -5538,7 +4449,7 @@
                 {
                   "id": 3001,
                   "name": "Verbos regulares (-ed)",
-                  "description": "Coloque verbos regulares no passado.",
+                  "description": "Ponha -ed nos verbos regulares.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -5566,17 +4477,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "Yesterday I ___ my mother.",
+                      "prompt": "Last night we ___ a movie at home.",
                       "difficulty": "easy",
                       "options": [
-                        "call",
-                        "called",
-                        "calling"
+                        "watched",
+                        "watch",
+                        "watching"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "`Yesterday` pede passado, e verbo regular ganha **-ed**: `called`."
+                      "explanation": "`Last night` pede passado; verbo regular ganha **-ed**."
                     },
                     {
                       "type": "choice",
@@ -5799,7 +4710,7 @@
                 {
                   "id": 3002,
                   "name": "Verbos irregulares",
-                  "description": "Use o passado dos verbos irregulares mais comuns.",
+                  "description": "Use o passado dos irregulares: went, saw, bought.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -5834,17 +4745,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "She ___ to London last year.",
+                      "prompt": "He ___ a new phone last week.",
                       "difficulty": "easy",
                       "options": [
-                        "goed",
-                        "went",
-                        "gone"
+                        "bought",
+                        "buyed",
+                        "buy"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "`Go` é irregular: o passado é `went` (não existe `goed`)."
+                      "explanation": "`Buy` é irregular: o passado é `bought`."
                     },
                     {
                       "type": "choice",
@@ -6647,7 +5558,7 @@
                 {
                   "id": 3003,
                   "name": "Negativas com didn't",
-                  "description": "Negue frases no passado com didn't e o verbo na forma base.",
+                  "description": "Negue com didn't e o verbo na forma base.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -6682,25 +5593,25 @@
                   "questions": [
                     {
                       "type": "build",
-                      "prompt": "Eu não vi o filme.",
+                      "prompt": "Ela não comeu o bolo.",
                       "difficulty": "medium",
                       "tiles": [
-                        "I",
+                        "She",
                         "didn't",
-                        "see",
+                        "eat",
                         "the",
-                        "movie.",
-                        "saw"
+                        "cake.",
+                        "ate"
                       ],
                       "answer": [
-                        "I",
+                        "She",
                         "didn't",
-                        "see",
+                        "eat",
                         "the",
-                        "movie."
+                        "cake."
                       ],
                       "shuffle": true,
-                      "explanation": "Na negativa do passado, o `didn't` já marca o passado; o verbo volta à forma base: `see`, não `saw`."
+                      "explanation": "Com `didn't`, o verbo volta à forma base: `eat`, não `ate`."
                     },
                     {
                       "type": "choice",
@@ -6929,24 +5840,24 @@
                 {
                   "id": 3004,
                   "name": "Tudo misturado",
-                  "description": "Regulares, irregulares, negativas e perguntas.",
+                  "description": "Passado afirmativo, negativo e perguntas, tudo junto.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [],
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "___ you finish the book?",
+                      "prompt": "___ she call you yesterday?",
                       "difficulty": "easy",
                       "options": [
                         "Did",
-                        "Do",
-                        "Were"
+                        "Does",
+                        "Was"
                       ],
                       "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Pergunta no passado com verbo comum começa com `Did`, e o verbo fica na forma base."
+                      "explanation": "Pergunta no passado com verbo comum: `Did` + verbo na forma base."
                     },
                     {
                       "type": "choice",
@@ -10612,7 +9523,7 @@
               "id": "wh",
               "name": "Perguntas com Wh-",
               "englishName": "wh- questions",
-              "description": "What, where, when, who, why e how.",
+              "description": "Perguntas abertas: what, where, when, who, why, how e which.",
               "level": null,
               "details": [
                 {
@@ -10679,7 +9590,7 @@
                 {
                   "id": 7101,
                   "name": "What, where, when",
-                  "description": "Pergunte sobre coisas, lugares e tempo.",
+                  "description": "Pergunte o quê, onde e quando.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -10709,17 +9620,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "___ do you live?",
+                      "prompt": "___ is your birthday? — In March.",
                       "difficulty": "easy",
                       "options": [
-                        "What",
+                        "When",
                         "Where",
-                        "When"
+                        "What"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Para perguntar sobre lugar (onde), use `where`."
+                      "explanation": "Para perguntar *quando*, use `when`."
                     },
                     {
                       "type": "choice",
@@ -10959,7 +9870,7 @@
                 {
                   "id": 7102,
                   "name": "Who, why, how",
-                  "description": "Pergunte sobre pessoas, motivos e modo.",
+                  "description": "Pergunte quem, por que e como.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -10981,17 +9892,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "___ are you sad?",
+                      "prompt": "___ is that man? — He's my uncle.",
                       "difficulty": "easy",
                       "options": [
                         "Who",
                         "Why",
                         "How"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Para perguntar o motivo (por quê), use `why`."
+                      "explanation": "Para perguntar *quem*, use `who`."
                     },
                     {
                       "type": "choice",
@@ -13055,7 +11966,7 @@
               "id": "modais",
               "name": "Auxiliares modais",
               "englishName": "modal verbs",
-              "description": "Will, would, can, could, should, may e might antes do verbo.",
+              "description": "Can, could, will, would, should, may e might: o modal antes do verbo, sem to.",
               "level": null,
               "details": [
                 {
@@ -13391,7 +12302,7 @@
                 {
                   "id": 6001,
                   "name": "Can e could",
-                  "description": "Use can e could em afirmativas.",
+                  "description": "Diga o que alguém consegue ou conseguia fazer: can e could.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -13413,17 +12324,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "When I was a child, I ___ swim.",
+                      "prompt": "My grandmother ___ speak three languages when she was young.",
                       "difficulty": "easy",
                       "options": [
-                        "can",
                         "could",
+                        "can",
                         "cans"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Habilidade no passado (*quando eu era criança*) é `could`."
+                      "explanation": "Habilidade no passado: `could`."
                     },
                     {
                       "type": "choice",
@@ -14168,7 +13079,7 @@
                 {
                   "id": 6002,
                   "name": "Negativas e perguntas com modais",
-                  "description": "Negue e pergunte com can, will, should e os outros modais.",
+                  "description": "Negue e pergunte com os modais, sem do.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -14194,17 +13105,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "___ I open the window?",
+                      "prompt": "___ you help me with this box?",
                       "difficulty": "easy",
                       "options": [
                         "Can",
                         "Do",
-                        "Am"
+                        "Are"
                       ],
                       "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Para pedir permissão, use `Can I...?`."
+                      "explanation": "Para pedir ajuda: `Can you...?` + verbo na forma base."
                     },
                     {
                       "type": "choice",
@@ -15256,7 +14167,7 @@
               "id": "there-is",
               "name": "There is e there are",
               "englishName": "there is / there are",
-              "description": "Dizer o que existe em um lugar.",
+              "description": "Diga o que existe ou tem num lugar: there is e there are.",
               "level": null,
               "details": [
                 {
@@ -15303,7 +14214,7 @@
                 {
                   "id": 6101,
                   "name": "Singular e plural",
-                  "description": "Escolha there is ou there are.",
+                  "description": "Use there is com singular e there are com plural.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -15330,17 +14241,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "___ two books on the table.",
+                      "prompt": "___ a pharmacy on this street.",
                       "difficulty": "easy",
                       "options": [
                         "There is",
                         "There are",
-                        "It is"
+                        "It has"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Com plural (`two books`), use `there are`."
+                      "explanation": "Com uma coisa só (`a pharmacy`), use `there is`."
                     },
                     {
                       "type": "choice",
@@ -15569,7 +14480,7 @@
                 {
                   "id": 6102,
                   "name": "Negativas e perguntas",
-                  "description": "There isn't, there aren't e Is there...?",
+                  "description": "Negue e pergunte: there isn't, there aren't, Is there...?",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -15600,17 +14511,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "___ any milk?",
+                      "prompt": "___ any chairs in the room?",
                       "difficulty": "easy",
                       "options": [
-                        "Is there",
                         "Are there",
-                        "There is"
+                        "Is there",
+                        "There are"
                       ],
                       "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "`Milk` é incontável, conta como singular: a pergunta é `Is there...?`."
+                      "explanation": "Pergunta com plural (`chairs`): `Are there...?`"
                     },
                     {
                       "type": "choice",
@@ -18248,7 +17159,7 @@
               "id": "plural",
               "name": "Plural dos substantivos",
               "englishName": "plural nouns",
-              "description": "-s, -es e os plurais irregulares.",
+              "description": "Um, dois: -s, -es, -ies e os plurais irregulares.",
               "level": null,
               "details": [
                 {
@@ -18310,7 +17221,7 @@
                 {
                   "id": 8001,
                   "name": "Regulares (-s, -es)",
-                  "description": "Forme o plural regular.",
+                  "description": "Forme o plural com -s ou -es.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -18335,17 +17246,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "One box, two ___.",
+                      "prompt": "One bus, two ___.",
                       "difficulty": "easy",
                       "options": [
-                        "boxs",
-                        "boxes",
-                        "boxies"
+                        "buses",
+                        "buss",
+                        "busies"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Palavras terminadas em -x, -s, -ch e -sh ganham **-es** no plural: `boxes`."
+                      "explanation": "Terminado em -s: ganha **-es**: `buses`."
                     },
                     {
                       "type": "choice",
@@ -18806,7 +17717,7 @@
                 {
                   "id": 8002,
                   "name": "Irregulares",
-                  "description": "Children, people, feet e outros.",
+                  "description": "Plurais que não seguem regra: children, women, feet.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -18831,17 +17742,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "One child, two ___.",
+                      "prompt": "One woman, two ___.",
                       "difficulty": "easy",
                       "options": [
-                        "childs",
-                        "children",
-                        "childrens"
+                        "women",
+                        "womans",
+                        "womens"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "`Child` tem plural irregular: `children` (sem -s)."
+                      "explanation": "`Woman` tem plural irregular: `women`."
                     },
                     {
                       "type": "choice",
@@ -19067,7 +17978,7 @@
               "id": "artigos",
               "name": "A, an e the",
               "englishName": "articles",
-              "description": "Quando usar a, an, the ou nenhum artigo.",
+              "description": "A, an, the ou nenhum: o artigo certo para cada caso.",
               "level": null,
               "details": [
                 {
@@ -19114,7 +18025,7 @@
                 {
                   "id": 8101,
                   "name": "A ou an?",
-                  "description": "Escolha pelo som da palavra seguinte.",
+                  "description": "Escolha a ou an pelo som que vem depois.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -19138,17 +18049,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "She is ___ engineer.",
-                      "difficulty": "easy",
+                      "prompt": "He's ___ honest man.",
+                      "difficulty": "medium",
                       "options": [
-                        "a",
                         "an",
+                        "a",
                         "the"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "`Engineer` começa com som de vogal, então o artigo é `an`."
+                      "explanation": "`Honest` começa com som de vogal (o `h` é mudo): `an`."
                     },
                     {
                       "type": "choice",
@@ -19605,7 +18516,7 @@
                 {
                   "id": 8102,
                   "name": "Quando usar the",
-                  "description": "Coisas específicas e já mencionadas.",
+                  "description": "Use the para o que é específico ou já foi citado.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -19627,17 +18538,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "I saw a dog. ___ dog was black.",
+                      "prompt": "We bought a house. ___ house has a big garden.",
                       "difficulty": "easy",
                       "options": [
-                        "A",
                         "The",
+                        "A",
                         "An"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "O cachorro já foi mencionado, então agora é específico: `the`."
+                      "explanation": "A casa já foi citada: agora é `the`."
                     },
                     {
                       "type": "choice",
@@ -22532,7 +21443,7 @@
               "id": "in-on-at",
               "name": "In, on e at: tempo",
               "englishName": "prepositions of time",
-              "description": "Horas, dias, meses e datas.",
+              "description": "Quando: at para horas, on para dias, in para meses e anos.",
               "level": null,
               "details": [
                 {
@@ -22796,7 +21707,7 @@
                 {
                   "id": 9001,
                   "name": "Horas, dias e datas",
-                  "description": "At 5 o'clock, on Monday, in July.",
+                  "description": "At para horas, on para dias e datas, in para meses.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -22818,17 +21729,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "The class starts ___ 8 o'clock.",
+                      "prompt": "The meeting is ___ Tuesday.",
                       "difficulty": "easy",
                       "options": [
-                        "in",
                         "on",
+                        "in",
                         "at"
                       ],
-                      "correct": 2,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Para horas, use `at`: `at 8 o'clock`."
+                      "explanation": "Para dias da semana, `on`."
                     },
                     {
                       "type": "choice",
@@ -23017,14 +21928,14 @@
                 {
                   "id": 9002,
                   "name": "Tudo misturado",
-                  "description": "In, on e at em frases variadas.",
+                  "description": "In, on e at de tempo em frases variadas.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [],
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "My birthday is ___ May.",
+                      "prompt": "We go to the beach ___ summer.",
                       "difficulty": "easy",
                       "options": [
                         "in",
@@ -23034,7 +21945,7 @@
                       "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Para meses, use `in`: `in May`."
+                      "explanation": "Para estações do ano, `in`."
                     },
                     {
                       "type": "choice",
@@ -34455,7 +33366,7 @@
     {
       "id": "ingles-intermediario",
       "name": "Inglês Intermediário",
-      "description": "Para quem já monta frases no presente e no passado: futuro e negativas em vários tempos.",
+      "description": "Para ir além do básico: mais tempos verbais, conectores, condicionais, voz passiva, phrasal verbs e vocabulário.",
       "language": "en",
       "level": "intermediate",
       "sections": [
@@ -36295,7 +35206,7 @@
               "id": "futuro",
               "name": "Futuro: will e going to",
               "englishName": "future",
-              "description": "Planos, previsões e decisões na hora.",
+              "description": "Will para decisões e previsões, going to para planos.",
               "level": null,
               "details": [
                 {
@@ -36342,7 +35253,7 @@
                 {
                   "id": 5001,
                   "name": "Will",
-                  "description": "Decisões na hora e previsões.",
+                  "description": "Use will para decidir na hora e prever.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -36364,17 +35275,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "I think it ___ rain.",
+                      "prompt": "I'm sure you ___ love this movie.",
                       "difficulty": "easy",
                       "options": [
                         "will",
                         "going",
-                        "is"
+                        "are"
                       ],
                       "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Previsão baseada em opinião (`I think`) usa `will`."
+                      "explanation": "Previsão com certeza pessoal (`I'm sure`): `will` + verbo."
                     },
                     {
                       "type": "choice",
@@ -36611,7 +35522,7 @@
                 {
                   "id": 5002,
                   "name": "Going to",
-                  "description": "Planos e intenções.",
+                  "description": "Use going to para o que já está planejado.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -36642,17 +35553,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "We are ___ travel in July.",
+                      "prompt": "They ___ buy a new car next month. (já decidiram)",
                       "difficulty": "easy",
                       "options": [
-                        "going to",
-                        "will",
-                        "go"
+                        "are going to",
+                        "will to",
+                        "going"
                       ],
                       "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Plano já decidido usa `going to`: `We are going to travel`."
+                      "explanation": "Plano já decidido: `are going to` + verbo."
                     },
                     {
                       "type": "choice",
@@ -38800,7 +37711,7 @@
               "id": "negativas",
               "name": "Negativas e perguntas em todos os tempos",
               "englishName": "negatives and questions",
-              "description": "Negue frases no presente e no passado, misturando os tempos.",
+              "description": "Negue e pergunte em todos os tempos: presente, passado, perfeitos e futuro.",
               "level": null,
               "details": [
                 {
@@ -38867,7 +37778,7 @@
                 {
                   "id": 7001,
                   "name": "No presente",
-                  "description": "Don't, doesn't, isn't e aren't.",
+                  "description": "Negue no presente: don't, doesn't, isn't, aren't.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -38889,7 +37800,7 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "They ___ live here.",
+                      "prompt": "My parents ___ eat meat.",
                       "difficulty": "easy",
                       "options": [
                         "don't",
@@ -38899,7 +37810,7 @@
                       "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Negativa no presente com `they` e verbo comum: `don't` + verbo."
+                      "explanation": "Com `my parents` (como `they`) e verbo comum: `don't` + verbo."
                     },
                     {
                       "type": "write",
@@ -39131,7 +38042,7 @@
                 {
                   "id": 7002,
                   "name": "No passado",
-                  "description": "Didn't, wasn't e weren't.",
+                  "description": "Negue no passado: didn't, wasn't, weren't.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [
@@ -39153,17 +38064,17 @@
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "She ___ at the party.",
+                      "prompt": "The tickets ___ expensive last year.",
                       "difficulty": "easy",
                       "options": [
+                        "weren't",
                         "didn't",
-                        "wasn't",
-                        "weren't"
+                        "wasn't"
                       ],
-                      "correct": 1,
+                      "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Sem outro verbo na frase, a negativa é do próprio `to be`: `she wasn't`."
+                      "explanation": "Sem outro verbo, nega-se o `to be`; plural no passado: `weren't`."
                     },
                     {
                       "type": "write",
@@ -40197,14 +39108,14 @@
                 {
                   "id": 7003,
                   "name": "Tudo misturado",
-                  "description": "Presente e passado juntos.",
+                  "description": "Negativas de vários tempos misturadas.",
                   "minutes": 2,
                   "shuffleQuestions": true,
                   "details": [],
                   "questions": [
                     {
                       "type": "choice",
-                      "prompt": "I ___ understand the question.",
+                      "prompt": "He ___ like the food at the party.",
                       "difficulty": "easy",
                       "options": [
                         "didn't",
@@ -40214,7 +39125,7 @@
                       "correct": 0,
                       "shuffle": true,
                       "numbered": false,
-                      "explanation": "Com verbo comum (`understand`), a negativa no passado usa `didn't` + verbo na forma base."
+                      "explanation": "Com verbo comum (`like`), a negativa no passado é `didn't` + forma base."
                     },
                     {
                       "type": "choice",
